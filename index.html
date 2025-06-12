@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dasbor Analisis Aset Finansial</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script>
+      tailwind.config = {
+        darkMode: false, // Enforce light mode
+        theme: {
+          extend: {
+            fontFamily: {
+              inter: ['Inter', 'sans-serif'],
+            },
+          },
+        },
+      }
+    </script>
+    <style>
+      /* Basic body styling that Tailwind might not cover by default or for overrides */
+      body {
+        font-family: 'Inter', sans-serif;
+      }
+      /* Additional specific styles if absolutely necessary and not achievable with Tailwind easily */
+      .ai-content h3 {
+          font-size: 1.125rem; /* text-lg */
+          font-weight: 700; /* font-bold */
+          margin-top: 1rem; /* mt-4 */
+          margin-bottom: 0.5rem; /* mb-2 */
+      }
+      .ai-content ul {
+          list-style-type: disc;
+          padding-left: 1.5rem; /* pl-6 */
+          margin-bottom: 1rem; /* mb-4 */
+      }
+      .ai-content li {
+          margin-bottom: 0.25rem; /* mb-1 */
+      }
+      .ai-content p {
+          margin-bottom: 0.75rem; /* mb-3 */
+      }
+      .ai-content strong {
+          font-weight: 600; /* font-semibold */
+      }
+    </style>
+
+<link rel="stylesheet" href="/index.css">
+<script type="importmap">
+{
+  "imports": {
+    "@google/genai": "https://esm.sh/@google/genai@^1.4.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
+    "react/": "https://esm.sh/react@^19.1.0/",
+    "react": "https://esm.sh/react@^19.1.0",
+    "chart.js": "https://esm.sh/chart.js@^4.4.9",
+    "@vitejs/plugin-react": "https://esm.sh/@vitejs/plugin-react@^4.5.2",
+    "vite": "https://esm.sh/vite@^6.3.5"
+  }
+}
+</script>
+  <script type="module" crossorigin src="/finailytics/assets/index-CQLHK8y0.js"></script>
+</head>
+<body class="bg-gray-100 text-gray-800 font-inter">
+    <div id="root"></div>
+</body>
+</html>
