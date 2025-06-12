@@ -13,7 +13,7 @@ export default defineConfig({
     // Pastikan port tidak bentrok jika perlu
     // port: 3000, 
   },
-  base: "/finailytics",
+  base: "/finailytics/",
   // Vite akan memproses index.html di root secara default
   // dan menangani environment variables melalui import.meta.env
 })
